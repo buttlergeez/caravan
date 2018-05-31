@@ -1,0 +1,31 @@
+.my-div {
+  background-color: #ccc;
+  color: black;
+  width: 100%;
+}
+
+@media (min-width: 540px) {
+  .my-div {
+    background-color: aquamarine;
+    color: aliceblue;
+    max-width: 500px;
+  }
+}
+
+@media (min-width: 900px) {
+  .my-div {
+    background-color: midnightblue;
+    color: #cff;
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .my-div {
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    max-width: 960px;
+  }
+}
+
